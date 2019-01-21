@@ -18,6 +18,11 @@ cd docs-nethesis
 ```
 bundle install
 ```
+- Install [Yarn](https://yarnpkg.com/lang/en/docs/install/#centos-stable)
+- Install npm modules
+```
+yarn install
+```
 - Build the site and make it available on a local server
 ```
 bundle exec jekyll serve
