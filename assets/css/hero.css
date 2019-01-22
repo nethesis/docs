@@ -1,7 +1,7 @@
 html,
 body {
     background: #EFF3F4;
-    /* font-family: 'Open Sans', serif; */
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 .hero-body .container {
@@ -94,10 +94,43 @@ footer li:before {
 }
 
 .home-large-title {
-    font-size: 4.5vw !important;
+    font-size: 53px !important;
+    text-shadow: 1px 1px 1px #0000001c;
 }
 
 .hero.is-medium .hero-body {
-    padding-bottom: 5rem !important;
-    padding-top: 6rem !important;
+    padding-bottom: 1rem !important;
+    padding-top: 3rem !important;
+}
+
+.content ul {
+    list-style-type: circle !important;
+}
+
+.card {
+    width: 100%;
+}
+
+.menu-list a {
+    color: #3273dc !important;
+    font-size: 14px;
+}
+
+.menu {
+    margin-top: 25px;
+}
+
+.software-version {
+    font-size: 13px !important;
+    letter-spacing: 2px !important;
+    color: #636363 !important;
+}
+
+.features {
+    padding: 0px !important;
+}
+
+.products-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
 }

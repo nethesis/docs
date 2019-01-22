@@ -1,65 +1,49 @@
 <!DOCTYPE html>
 <html>
-
 {% include head.html %}
-
 <body>
     {% include header.html %}
-    <section class="container">
-
+    <section class="container products-container">
+        {% for row in site.data.nethpedia_rows %}
         <div class="columns features">
-            <div class="column is-4">
+            {% for product in site.data.nethpedia_products limit:row.limit offset:row.offset %}
+            <!-- COL -->
+            <div class="column is-3">
                 <div class="card is-shady">
                     <div class="card-image has-text-centered">
-                        <i class="fa fa-paw"></i>
+                        {% assign file = '/assets/images/' | append: product.product | downcase | append: '.png' %}
+                        <img style="margin: 60px 0px 26px 36px;" src="{{file}}">
                     </div>
                     <div class="card-content">
                         <div class="content">
-                            <h4>Tristique senectus et netus et. </h4>
-                            <p>Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec.
-                                Integer enim neque volutpat ac tincidunt vitae semper quis. Accumsan tortor posuere ac
-                                ut consequat semper viverra nam.</p>
-                            <p><a href="#">Learn more</a></p>
+                            <h4>{{product.product}}
+                                {% if product.name != '' %}
+                                - {{product.name}}
+                                {% endif %}
+                            </h4>
+                            <p>{{product.description}}</p>
+                            <aside class="menu">
+                                <p class="menu-label">
+                                    Docs
+                                    {% if product.release != '' %}
+                                    - ({{product.release}})
+                                    {% endif %}
+                                </p>
+                                <ul class="menu-list">
+                                    {% for doc in product.docs %}
+                                        <li><a href="{{doc.url}}">{{doc.label}}</a></li>
+                                    {% endfor %}
+                                </ul>
+                            </aside>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="column is-4">
-                <div class="card is-shady">
-                    <div class="card-image has-text-centered">
-                        <i class="fa fa-paw"></i>
-                    </div>
-                    <div class="card-content">
-                        <div class="content">
-                            <h4>Tristique senectus et netus et. </h4>
-                            <p>Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec.
-                                Integer enim neque volutpat ac tincidunt vitae semper quis. Accumsan tortor posuere ac
-                                ut consequat semper viverra nam.</p>
-                            <p><a href="#">Learn more</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="column is-4">
-                <div class="card is-shady">
-                    <div class="card-image has-text-centered">
-                        <i class="fa fa-paw"></i>
-                    </div>
-                    <div class="card-content">
-                        <div class="content">
-                            <h4>Tristique senectus et netus et. </h4>
-                            <p>Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec.
-                                Integer enim neque volutpat ac tincidunt vitae semper quis. Accumsan tortor posuere ac
-                                ut consequat semper viverra nam.</p>
-                            <p><a href="#">Learn more</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endfor %}
     </section>
     {% include footer.html %}
 </body>
-
 </html>
