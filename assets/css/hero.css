@@ -134,3 +134,30 @@ footer li:before {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
+.logos-images {
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */}
+
+.no-radius-right {
+    border-bottom-right-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+}
+
+.no-radius-left {
+    border-bottom-left-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+}
+
+.card {
+    height: 100%;
+}
+
+.card-content {
+    padding-bottom: 0px;
+}
+
+.columns {
+    margin-bottom: 30px !important;
+}

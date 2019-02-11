@@ -8,17 +8,20 @@
         <div class="columns features">
             {% for product in site.data.nethpedia_products limit:row.limit offset:row.offset %}
             <!-- COL -->
-            <div class="column is-3">
+            <div class="column is-4">
                 <div class="card is-shady">
-                    <div class="card-image has-text-centered">
-                        {% assign file = '/assets/images/' | append: product.product | downcase | append: '.png' %}
-                        <img style="margin: 60px 0px 26px 36px;" src="{{file}}">
+                    <div class="card-image has-text-centered logos-images">
+                        {% assign file = '/assets/images/' | append: product.product | downcase | append: '.svg' %}
+                        <img style="height: 300px; width: 300px; margin-top:1rem;" src="{{file}}">
                     </div>
                     <div class="card-content">
                         <div class="content">
-                            <h4>{{product.product}}
+                            <h4>
+                                {% if product.name == '' %}
+                                  {{product.product}}
+                                {% endif %}
                                 {% if product.name != '' %}
-                                - {{product.name}}
+                                  {{product.name}}
                                 {% endif %}
                             </h4>
                             <p>{{product.description}}</p>
@@ -31,7 +34,7 @@
                                 </p>
                                 <ul class="menu-list">
                                     {% for doc in product.docs %}
-                                        <li><a href="{{doc.url}}">{{doc.label}}</a></li>
+                                        <li><a target="_blank" href="{{doc.url}}">{{doc.label}}</a></li>
                                     {% endfor %}
                                 </ul>
                             </aside>

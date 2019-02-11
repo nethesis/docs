@@ -1,154 +1,139 @@
 [
     {
         "product": "NethSecurity",
-        "name": "Cyber Security",
-        "description": "Purus semper eget duis at tellus at urna condimentum mattis.",
-        "release": "v1.0",
+        "name": "Firewall UTM",
+        "description": "Proteggi la tua rete: i tuoi dati sono importanti",
+        "release": "v7",
         "docs": [{
-            "label": "Quick start",
-            "url": ""
-        }, {
             "label": "Download",
-            "url": ""
+            "url": "http://5d914b67bdb4eeb957d0-66e3589a64c1b49316460c27c219b621.r93.cf3.rackcdn.com/nethserver-enterprise-7.6.1810-x86_64.iso"
         }, {
-            "label": "Manuale",
-            "url": ""
+            "label": "File md5 per controllo integrità",
+            "url": "http://5d914b67bdb4eeb957d0-66e3589a64c1b49316460c27c219b621.r93.cf3.rackcdn.com/nethserver-enterprise-7.6.1810-x86_64.iso.md5"
         }, {
-            "label": "How to",
-            "url": ""
-        }]
-    },
-    {
-        "product": "NethService",
-        "name": "Groupware and Collaboration",
-        "description": "Purus semper eget duis at tellus at urna condimentum mattis.",
-        "release": "v1.0",
-        "docs": [{
-            "label": "Quick start",
-            "url": ""
+            "label": "File sha1 per controllo integrità",
+            "url": "http://5d914b67bdb4eeb957d0-66e3589a64c1b49316460c27c219b621.r93.cf3.rackcdn.com/nethserver-enterprise-7.6.1810-x86_64.iso.sha1"
         }, {
-            "label": "Download",
-            "url": ""
-        }, {
-            "label": "Manuale",
-            "url": ""
-        }, {
-            "label": "How to",
-            "url": ""
+            "label": "Manuale Amministratore",
+            "url": "https://nethserver.docs.nethesis.it/it/v7/"
         }]
     },
     {
         "product": "NethVoice",
         "name": "Unified Communication",
-        "description": "Purus semper eget duis at tellus at urna condimentum mattis.",
-        "release": "v1.0",
+        "description": "La nuova generazione del PBX VoIP",
+        "release": "v14",
         "docs": [{
-            "label": "Quick start",
-            "url": ""
-        }, {
             "label": "Download",
-            "url": ""
+            "url": "http://5d914b67bdb4eeb957d0-66e3589a64c1b49316460c27c219b621.r93.cf3.rackcdn.com/nethserver-enterprise-7.6.1810-x86_64.iso"
         }, {
-            "label": "Manuale",
-            "url": ""
+            "label": "File md5 per controllo integrità",
+            "url": "http://5d914b67bdb4eeb957d0-66e3589a64c1b49316460c27c219b621.r93.cf3.rackcdn.com/nethserver-enterprise-7.6.1810-x86_64.iso.md5"
+        }, {
+            "label": "File sha1 per controllo integrità",
+            "url": "http://5d914b67bdb4eeb957d0-66e3589a64c1b49316460c27c219b621.r93.cf3.rackcdn.com/nethserver-enterprise-7.6.1810-x86_64.iso.sha1"
+        }, {
+            "label": "Download - Nethifier",
+            "url": "http://helpdesk.nethesis.it/support/solutions/articles/3000073997-nethifier-app-nativa-per-microsoft-windows"
+        }, {
+            "label": "Manuale Utente - NethCTI",
+            "url": "https://nethcti.docs.nethesis.it/it/v3/"
+        }, {
+            "label": "Manuale Sviluppatore - NethCTI",
+            "url": "https://nethvoice.docs.nethesis.it/it/v14/#product-cti-guida-sviluppatori"
+        }, {
+            "label": "Manuale Amministratore",
+            "url": "https://nethvoice.docs.nethesis.it/it/v14/"
         }, {
             "label": "How to",
-            "url": ""
+            "url": "https://nethvoice.docs.nethesis.it/it/v14/#howto"
+        }]
+    },
+    {
+        "product": "NethService",
+        "name": "Groupware and Collaboration",
+        "description": "Condividi, collabora e comunica. La tecnologia al servizio delle tue idee",
+        "release": "v7",
+        "docs": [{
+            "label": "Download",
+            "url": "http://5d914b67bdb4eeb957d0-66e3589a64c1b49316460c27c219b621.r93.cf3.rackcdn.com/nethserver-enterprise-7.6.1810-x86_64.iso"
+        }, {
+            "label": "File md5 per controllo integrità",
+            "url": "http://5d914b67bdb4eeb957d0-66e3589a64c1b49316460c27c219b621.r93.cf3.rackcdn.com/nethserver-enterprise-7.6.1810-x86_64.iso.md5"
+        }, {
+            "label": "File sha1 per controllo integrità",
+            "url": "http://5d914b67bdb4eeb957d0-66e3589a64c1b49316460c27c219b621.r93.cf3.rackcdn.com/nethserver-enterprise-7.6.1810-x86_64.iso.sha1"
+        }, {
+            "label": "Manuale Amministratore",
+            "url": "https://nethserver.docs.nethesis.it/it/master/"
         }]
     },
     {
         "product": "NethMonitor",
-        "name": "ICT Monitoring",
-        "description": "Purus semper eget duis at tellus at urna condimentum mattis.",
-        "release": "v1.0",
+        "name": "Monitoraggio IT proattivo",
+        "description": "L’accesso in rete immediato e Marketing Oriented",
+        "release": "CE",
         "docs": [{
-            "label": "Quick start",
-            "url": ""
-        }, {
-            "label": "Download",
-            "url": ""
-        }, {
-            "label": "Manuale",
-            "url": ""
-        }, {
-            "label": "How to",
-            "url": ""
+            "label": "Manuale Utente",
+            "url": "http://helpdesk.nethesis.it/solution/articles/3000073388-nethmonitor-ce-quickstart-e-file-dell-agent"
         }]
     },
     {
         "product": "NethSpot",
         "name": "HotSpot and Marketing",
-        "description": "Purus semper eget duis at tellus at urna condimentum mattis.",
-        "release": "v1.0",
+        "description": "Accesso a internet immediato e Marketing Oriented",
+        "release": "Disponibile SOLO su Nethsecurity v7",
         "docs": [{
-            "label": "Quick start",
-            "url": ""
-        }, {
-            "label": "Download",
-            "url": ""
+            "label": "Quick Start",
+            "url": "http://helpdesk.nethesis.it/support/solutions/articles/3000076506-quickstart-nethspot"
         }, {
             "label": "Manuale",
-            "url": ""
-        }, {
-            "label": "How to",
-            "url": ""
+            "url": "http://helpdesk.nethesis.it/support/solutions/folders/3000014693"
+        }]
+    },
+    {
+        "product": "My",
+        "name": "My Nethesis",
+        "description": "Monitoraggio dei server",
+        "release": "",
+        "docs": [{
+            "label": "Link",
+            "url": "https://my.nethesis.it/"
         }]
     },
     {
         "product": "NethBox",
         "name": "Nethesis Box",
-        "description": "Purus semper eget duis at tellus at urna condimentum mattis.",
-        "release": "v1.0",
+        "description": "",
+        "release": "",
         "docs": [{
-            "label": "Quick start",
-            "url": ""
+            "label": "Shop online",
+            "url": "http://nethshop.nethesis.it/index.php"
         }, {
-            "label": "Download",
-            "url": ""
+            "label": "Quick Start",
+            "url": "http://helpdesk.nethesis.it/support/solutions/articles/3000063630-quickstart-nethbox-nethesis-v-7-"
         }, {
-            "label": "Manuale",
-            "url": ""
-        }, {
-            "label": "How to",
-            "url": ""
-        }]
-    },
-    {
-        "product": "Nethesis Operation Center",
-        "name": "",
-        "description": "Purus semper eget duis at tellus at urna condimentum mattis.",
-        "release": "v1.0",
-        "docs": [{
-            "label": "Quick start",
-            "url": ""
-        }, {
-            "label": "Download",
-            "url": ""
-        }, {
-            "label": "Manuale",
-            "url": ""
-        }, {
-            "label": "How to",
-            "url": ""
+            "label": "Malfunzionamento Box",
+            "url": "http://helpdesk.nethesis.it/support/solutions/articles/3000054156-malfunzionamento-box-quali-test-effettuare"
         }]
     },
     {
         "product": "Support",
         "name": "Costumer Support",
-        "description": "Purus semper eget duis at tellus at urna condimentum mattis.",
-        "release": "v1.0",
+        "description": "",
+        "release": "",
         "docs": [{
-            "label": "Quick start",
-            "url": ""
+            "label": "Helpdesk",
+            "url": "http://helpdesk.nethesis.it"
         }, {
-            "label": "Download",
-            "url": ""
+            "label": "Guida all'utilizzo dell'helpdesk",
+            "url": "http://helpdesk.nethesis.it/support/solutions/folders/3000003238"
         }, {
-            "label": "Manuale",
-            "url": ""
+            "label": "Come attivare supporto remoto",
+            "url": "http://helpdesk.nethesis.it/support/solutions/articles/3000072133-attivare-supporto-remoto-per-nethserver-enterprise-6-x-e-7-x"
         }, {
-            "label": "How to",
-            "url": ""
+            "label": "Accesso esterno a NethServer Enterprise",
+            "url": "http://helpdesk.nethesis.it/support/solutions/articles/3000020743-accesso-a-nethserver-enterprise"
         }]
     }
 ]
