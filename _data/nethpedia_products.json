@@ -4,7 +4,10 @@
         "name": "Firewall UTM",
         "description": "Proteggi la tua rete: i tuoi dati sono importanti",
         "release": "v7",
-        "docs": [{
+        "docs": [ {
+            "label": "Manuale Amministratore",
+            "url": "https://nethserver.docs.nethesis.it/it/v7/"
+        }, {
             "label": "Download",
             "url": "http://5d914b67bdb4eeb957d0-66e3589a64c1b49316460c27c219b621.r93.cf3.rackcdn.com/nethserver-enterprise-7.6.1810-x86_64.iso"
         }, {
@@ -13,10 +16,8 @@
         }, {
             "label": "File sha1 per controllo integrità",
             "url": "http://5d914b67bdb4eeb957d0-66e3589a64c1b49316460c27c219b621.r93.cf3.rackcdn.com/nethserver-enterprise-7.6.1810-x86_64.iso.sha1"
-        }, {
-            "label": "Manuale Amministratore",
-            "url": "https://nethserver.docs.nethesis.it/it/v7/"
-        }]
+        }],
+        "color": "#2d8dcd"
     },
     {
         "product": "NethVoice",
@@ -24,6 +25,18 @@
         "description": "La nuova generazione del PBX VoIP",
         "release": "v14",
         "docs": [{
+            "label": "Manuale Amministratore",
+            "url": "https://nethvoice.docs.nethesis.it/it/v14/"
+        },  {
+            "label": "Manuale Utente - NethCTI",
+            "url": "https://nethcti.docs.nethesis.it/it/v3/"
+        }, {
+            "label": "Manuale Sviluppatore - NethCTI",
+            "url": "https://nethvoice.docs.nethesis.it/it/v14/#product-cti-guida-sviluppatori"
+        }, {
+            "label": "How to",
+            "url": "https://nethvoice.docs.nethesis.it/it/v14/#howto"
+        },  {
             "label": "Download",
             "url": "http://5d914b67bdb4eeb957d0-66e3589a64c1b49316460c27c219b621.r93.cf3.rackcdn.com/nethserver-enterprise-7.6.1810-x86_64.iso"
         }, {
@@ -35,18 +48,6 @@
         }, {
             "label": "Download - Nethifier",
             "url": "http://helpdesk.nethesis.it/support/solutions/articles/3000073997-nethifier-app-nativa-per-microsoft-windows"
-        }, {
-            "label": "Manuale Utente - NethCTI",
-            "url": "https://nethcti.docs.nethesis.it/it/v3/"
-        }, {
-            "label": "Manuale Sviluppatore - NethCTI",
-            "url": "https://nethvoice.docs.nethesis.it/it/v14/#product-cti-guida-sviluppatori"
-        }, {
-            "label": "Manuale Amministratore",
-            "url": "https://nethvoice.docs.nethesis.it/it/v14/"
-        }, {
-            "label": "How to",
-            "url": "https://nethvoice.docs.nethesis.it/it/v14/#howto"
         }]
     },
     {
@@ -55,6 +56,9 @@
         "description": "Condividi, collabora e comunica. La tecnologia al servizio delle tue idee",
         "release": "v7",
         "docs": [{
+            "label": "Manuale Amministratore",
+            "url": "https://nethserver.docs.nethesis.it/it/master/"
+        }, {
             "label": "Download",
             "url": "http://5d914b67bdb4eeb957d0-66e3589a64c1b49316460c27c219b621.r93.cf3.rackcdn.com/nethserver-enterprise-7.6.1810-x86_64.iso"
         }, {
@@ -63,9 +67,6 @@
         }, {
             "label": "File sha1 per controllo integrità",
             "url": "http://5d914b67bdb4eeb957d0-66e3589a64c1b49316460c27c219b621.r93.cf3.rackcdn.com/nethserver-enterprise-7.6.1810-x86_64.iso.sha1"
-        }, {
-            "label": "Manuale Amministratore",
-            "url": "https://nethserver.docs.nethesis.it/it/master/"
         }]
     },
     {
@@ -82,13 +83,13 @@
         "product": "NethSpot",
         "name": "HotSpot and Marketing",
         "description": "Accesso a internet immediato e Marketing Oriented",
-        "release": "Disponibile SOLO su Nethsecurity v7",
+        "release": "Su Nethsecurity v7",
         "docs": [{
-            "label": "Quick Start",
-            "url": "http://helpdesk.nethesis.it/support/solutions/articles/3000076506-quickstart-nethspot"
-        }, {
             "label": "Manuale",
             "url": "http://helpdesk.nethesis.it/support/solutions/folders/3000014693"
+        },  {
+            "label": "Quick Start",
+            "url": "http://helpdesk.nethesis.it/support/solutions/articles/3000076506-quickstart-nethspot"
         }]
     },
     {
@@ -104,14 +105,14 @@
     {
         "product": "NethBox",
         "name": "Nethesis Box",
-        "description": "",
+        "description": "Hardware Nethesis",
         "release": "",
         "docs": [{
-            "label": "Shop online",
-            "url": "http://nethshop.nethesis.it/index.php"
-        }, {
             "label": "Quick Start",
             "url": "http://helpdesk.nethesis.it/support/solutions/articles/3000063630-quickstart-nethbox-nethesis-v-7-"
+        }, {
+            "label": "Shop online",
+            "url": "http://nethshop.nethesis.it/index.php"
         }, {
             "label": "Malfunzionamento Box",
             "url": "http://helpdesk.nethesis.it/support/solutions/articles/3000054156-malfunzionamento-box-quali-test-effettuare"
@@ -120,7 +121,7 @@
     {
         "product": "Support",
         "name": "Costumer Support",
-        "description": "",
+        "description": "Assistenza Nethesis",
         "release": "",
         "docs": [{
             "label": "Helpdesk",

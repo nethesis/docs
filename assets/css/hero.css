@@ -14,7 +14,7 @@ body {
 
 .hero-body .subtitle {
     color: hsl(192, 17%, 99%) !important;
-    padding-top: 2rem;
+    padding-top: 1.5rem;
     line-height: 1.5;
 }
 
@@ -37,11 +37,11 @@ body {
 
 .card-content .content {
     font-size: 14px;
-    margin: 1rem 1rem;
+    margin-bottom: 6px;
 }
 
 .card-content .content h4 {
-    font-size: 16px;
+    font-size: 17.5px;
     font-weight: 700;
 }
 
@@ -96,11 +96,13 @@ footer li:before {
 .home-large-title {
     font-size: 53px !important;
     text-shadow: 1px 1px 1px #0000001c;
+    margin-bottom: 14px !important;
+    margin-top: 10px;
 }
 
 .hero.is-medium .hero-body {
     padding-bottom: 1rem !important;
-    padding-top: 3rem !important;
+    padding-top: 1rem !important;
 }
 
 .content ul {
@@ -112,7 +114,6 @@ footer li:before {
 }
 
 .menu-list a {
-    color: #3273dc !important;
     font-size: 14px;
 }
 
@@ -130,15 +131,16 @@ footer li:before {
     padding: 0px !important;
 }
 
-.products-container{
+.products-container {
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
 .logos-images {
     background-color: #ffffff;
-    background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
-    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */}
+    background-image: url("/assets/images/black-thread-light.png");
+    height: 140px;
+}
 
 .no-radius-right {
     border-bottom-right-radius: 0px !important;
@@ -154,10 +156,96 @@ footer li:before {
     height: 100%;
 }
 
-.card-content {
-    padding-bottom: 0px;
-}
-
 .columns {
     margin-bottom: 30px !important;
+    width: 100%;
+}
+
+.nethesis-logo-image {
+    background-color: #34a2dee8;
+    border-radius: 4px;
+    padding: 6px 11px;
+}
+
+.second-footer {
+    padding: 3rem 0rem !important;
+    border-top: 1px solid #d2d5d6;
+}
+
+.first-footer {
+    padding: 5rem 7rem 3rem 6rem !important;
+}
+
+.product-image {
+    height: 300px;
+    width: 300px;
+    margin-top: 1rem;
+    margin-top: -78px;
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+.ul-links-list li:first-child a {
+    font-weight: 600;
+    font-size: 16px;
+    padding-left: 11px;
+    margin-bottom: 10px;
+}
+
+.ul-links-list li a {
+    width: fit-content;
+}
+
+.ul-links-list li a:hover {
+    color: #292929 !important;
+}
+
+.card-content {
+    padding-bottom: 8px !important;
+    padding-top: 2rem !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
+
+.nethsecurity {
+    color: #2d8dcd !important;
+}
+
+.nethvoice {
+    color: #60b464 !important;
+}
+
+.nethservice {
+    color: #f0830c !important;
+}
+
+.nethmonitor {
+    color: #8867a9 !important;
+}
+
+.nethspot {
+    color: #294b9a !important;
+}
+
+.my {
+    color: #565656 !important;
+}
+
+.nethbox {
+    color: #565656 !important;
+}
+
+.support {
+    color: #565656 !important;
+}
+
+.product-description {
+    color: #757575;
+}
+
+.top-search-form {
+    padding-top: 0px !important
 }

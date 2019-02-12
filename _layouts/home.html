@@ -12,11 +12,11 @@
                 <div class="card is-shady">
                     <div class="card-image has-text-centered logos-images">
                         {% assign file = '/assets/images/' | append: product.product | downcase | append: '.svg' %}
-                        <img style="height: 300px; width: 300px; margin-top:1rem;" src="{{file}}">
+                        <img class="product-image" src="{{file}}">
                     </div>
                     <div class="card-content">
                         <div class="content">
-                            <h4>
+                            <h4 class="{{product.product | downcase}}">
                                 {% if product.name == '' %}
                                   {{product.product}}
                                 {% endif %}
@@ -24,17 +24,16 @@
                                   {{product.name}}
                                 {% endif %}
                             </h4>
-                            <p>{{product.description}}</p>
+                            <p class="{{product.product | downcase}}">{{product.description}}</p>
                             <aside class="menu">
-                                <p class="menu-label">
-                                    Docs
+                                <p class="menu-label {{product.product | downcase}}">
                                     {% if product.release != '' %}
-                                    - ({{product.release}})
+                                    Versione - {{product.release}}
                                     {% endif %}
                                 </p>
-                                <ul class="menu-list">
+                                <ul class="menu-list ul-links-list">
                                     {% for doc in product.docs %}
-                                        <li><a target="_blank" href="{{doc.url}}">{{doc.label}}</a></li>
+                                        <li><a class="{{product.product | downcase}}" target="_blank" href="{{doc.url}}">{{doc.label}}</a></li>
                                     {% endfor %}
                                 </ul>
                             </aside>
