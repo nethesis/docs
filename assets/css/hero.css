@@ -37,7 +37,7 @@ body {
 
 .card-content .content {
     font-size: 15px;
-    margin-bottom: 6px;
+    margin-bottom: 10px;
 }
 
 .card-content .content h4 {
@@ -96,8 +96,8 @@ footer li:before {
 .home-large-title {
     font-size: 53px !important;
     text-shadow: 1px 1px 1px #0000001c;
-    margin-bottom: 14px !important;
-    margin-top: 10px;
+    margin-bottom: 22px !important;
+    margin-top: 19px;
 }
 
 .hero.is-medium .hero-body {
