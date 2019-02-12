@@ -30,3 +30,6 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - yarn.lock
+  - README.md
+  - package.json
