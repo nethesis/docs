@@ -29,5 +29,16 @@ bundle exec jekyll serve
 ```
 - Now browse to http://localhost:4000
 
+## Build and deploy
+
+Execute:
+```
+rm -rf _site/*
+JEKYLL_ENV=production bundle exec jekyll build
+lftp -u docs@nethesis.it,PASSWORD it34.siteground.eu -e "set ftp:ssl-allow no ; mirror -v -e -R -p ./_site . ; quit"
+```
+
+Ask for `PASSWORD` to the admin of the site.
+
 ### Note
 Check [here](https://jekyllrb.com/docs/themes/#overriding-theme-defaults) to learn how the Jekyll theme works.
