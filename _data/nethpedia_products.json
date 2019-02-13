@@ -10,12 +10,6 @@
         }, {
             "label": "Download",
             "url": "http://5d914b67bdb4eeb957d0-66e3589a64c1b49316460c27c219b621.r93.cf3.rackcdn.com/nethserver-enterprise-7.6.1810-x86_64.iso"
-        }, {
-            "label": "File md5 per controllo integrità",
-            "url": "http://5d914b67bdb4eeb957d0-66e3589a64c1b49316460c27c219b621.r93.cf3.rackcdn.com/nethserver-enterprise-7.6.1810-x86_64.iso.md5"
-        }, {
-            "label": "File sha1 per controllo integrità",
-            "url": "http://5d914b67bdb4eeb957d0-66e3589a64c1b49316460c27c219b621.r93.cf3.rackcdn.com/nethserver-enterprise-7.6.1810-x86_64.iso.sha1"
         }],
         "color": "#2d8dcd"
     },
@@ -40,12 +34,6 @@
             "label": "Download",
             "url": "http://5d914b67bdb4eeb957d0-66e3589a64c1b49316460c27c219b621.r93.cf3.rackcdn.com/nethserver-enterprise-7.6.1810-x86_64.iso"
         }, {
-            "label": "File md5 per controllo integrità",
-            "url": "http://5d914b67bdb4eeb957d0-66e3589a64c1b49316460c27c219b621.r93.cf3.rackcdn.com/nethserver-enterprise-7.6.1810-x86_64.iso.md5"
-        }, {
-            "label": "File sha1 per controllo integrità",
-            "url": "http://5d914b67bdb4eeb957d0-66e3589a64c1b49316460c27c219b621.r93.cf3.rackcdn.com/nethserver-enterprise-7.6.1810-x86_64.iso.sha1"
-        }, {
             "label": "Download - Nethifier",
             "url": "http://helpdesk.nethesis.it/support/solutions/articles/3000073997-nethifier-app-nativa-per-microsoft-windows"
         }]
@@ -61,12 +49,6 @@
         }, {
             "label": "Download",
             "url": "http://5d914b67bdb4eeb957d0-66e3589a64c1b49316460c27c219b621.r93.cf3.rackcdn.com/nethserver-enterprise-7.6.1810-x86_64.iso"
-        }, {
-            "label": "File md5 per controllo integrità",
-            "url": "http://5d914b67bdb4eeb957d0-66e3589a64c1b49316460c27c219b621.r93.cf3.rackcdn.com/nethserver-enterprise-7.6.1810-x86_64.iso.md5"
-        }, {
-            "label": "File sha1 per controllo integrità",
-            "url": "http://5d914b67bdb4eeb957d0-66e3589a64c1b49316460c27c219b621.r93.cf3.rackcdn.com/nethserver-enterprise-7.6.1810-x86_64.iso.sha1"
         }]
     },
     {
