@@ -4,9 +4,9 @@
 <body>
     {% include header.html %}
     <section class="container products-container">
-        {% for row in site.data.nethpedia_rows %}
+        {% for row in site.data.nethipedia_rows %}
         <div class="columns features">
-            {% for product in site.data.nethpedia_products limit:row.limit offset:row.offset %}
+            {% for product in site.data.nethipedia_products limit:row.limit offset:row.offset %}
             <!-- COL -->
             <div class="column is-4">
                 <div class="card is-shady">

@@ -1,4 +1,4 @@
-# NETHPEDIA
+# NETHIPEDIA
 
 Documentation scheme of all nethesis products.
 
