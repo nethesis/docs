@@ -45,7 +45,7 @@
         "release": "v7",
         "docs": [{
             "label": "Manuale Amministratore",
-            "url": "https://nethserver.docs.nethesis.it/it/master/"
+            "url": "https://nethserver.docs.nethesis.it/it/v7/"
         }, {
             "label": "Download",
             "url": "http://5d914b67bdb4eeb957d0-66e3589a64c1b49316460c27c219b621.r93.cf3.rackcdn.com/nethserver-enterprise-7.6.1810-x86_64.iso"
