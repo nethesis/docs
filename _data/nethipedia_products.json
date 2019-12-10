@@ -80,8 +80,11 @@
         "description": "Monitoraggio dei server",
         "release": "",
         "docs": [{
-            "label": "Link",
+            "label": "Centro Servizi",
             "url": "https://my.nethesis.it/"
+        },{
+            "label": "Manuale",
+            "url": "http://helpdesk.nethesis.it/support/solutions/articles/3000094435-indice-manuale-centro-servizi-my-nethesis-it"
         }]
     },
     {
