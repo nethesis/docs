@@ -52,16 +52,6 @@
         }]
     },
     {
-        "product": "NethMonitor",
-        "name": "Monitoraggio IT proattivo",
-        "description": "L’accesso in rete immediato e Marketing Oriented",
-        "release": "CE",
-        "docs": [{
-            "label": "Manuale Utente",
-            "url": "http://helpdesk.nethesis.it/solution/articles/3000073388-nethmonitor-ce-quickstart-e-file-dell-agent"
-        }]
-    },
-    {
         "product": "NethSpot",
         "name": "HotSpot and Marketing",
         "description": "Accesso a internet immediato e Marketing Oriented",
@@ -99,6 +89,9 @@
             "label": "Shop online",
             "url": "http://nethshop.nethesis.it/index.php"
         }, {
+            "label": "Technical Data Sheet",
+            "url": "http://helpdesk.nethesis.it/support/solutions/articles/3000097252-technical-data-sheet-securitybox-e-voicebox"       
+        }, {
             "label": "Malfunzionamento Box",
             "url": "http://helpdesk.nethesis.it/support/solutions/articles/3000054156-malfunzionamento-box-quali-test-effettuare"
         }]
@@ -120,6 +113,19 @@
         }, {
             "label": "Accesso esterno a NethServer Enterprise",
             "url": "http://helpdesk.nethesis.it/support/solutions/articles/3000020743-accesso-a-nethserver-enterprise"
+        }]
+    },
+        {
+        "product": "Commerciale",
+        "name": "Materiale commerciale",
+        "description": "Brochure, presentazioni, loghi",
+        "release": "",
+        "docs": [{
+            "label": "Area commerciale",
+            "url": "http://helpdesk.nethesis.it/support/solutions/folders/3000009200"
+        },{
+            "label": "Blog",
+            "url": "https://blog.nethesis.it/"
         }]
     }
 ]
