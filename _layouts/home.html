@@ -8,7 +8,7 @@
         <div class="columns features">
             {% for product in site.data.nethipedia_products limit:row.limit offset:row.offset %}
             <!-- COL -->
-            <div class="column is-4">
+            <div class="column is-3">
                 <div class="card is-shady">
                     <div class="card-image has-text-centered logos-images">
                         {% assign file = '/assets/images/' | append: product.product | downcase | append: '.svg' %}
