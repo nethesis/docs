@@ -35,7 +35,7 @@ Execute:
 ```
 rm -rf _site/*
 JEKYLL_ENV=production bundle exec jekyll build
-lftp -u docs@nethesis.it,PASSWORD it34.siteground.eu -e "set ftp:ssl-allow no ; mirror -v -e -R -p ./_site . ; quit"
+lftp -u docs@nethesis.it,PASSWORD gnldm5.siteground.biz -e "set ftp:ssl-allow no ; mirror -v -e -R -p ./_site . ; quit"
 ```
 
 Ask for `PASSWORD` to the admin of the site.
