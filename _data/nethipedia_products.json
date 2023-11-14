@@ -26,16 +26,16 @@
             "url": "https://nethcti.docs.nethesis.it/it/v3/"
         }, {
             "label": "Manuale Sviluppatore - NethCTI",
-            "url": "https://nethvoice.docs.nethesis.it/it/v14/#product-cti-guida-sviluppatori"
+            "url": "https://nethvoice.docs.nethesis.it/it/v14/cti_dev.html#panoramica"
         }, {
             "label": "How to",
-            "url": "https://nethvoice.docs.nethesis.it/it/v14/#howto"
+            "url": "https://nethvoice.docs.nethesis.it/it/v14/howto.html"
         },  {
             "label": "Download",
-            "url": "http://5d914b67bdb4eeb957d0-66e3589a64c1b49316460c27c219b621.r93.cf3.rackcdn.com/nethserver-enterprise-7.9.2009-x86_64.iso"
+            "url": "https://helpdesk.nethesis.it/a/solutions/articles/3000073996"
         }, {
             "label": "Download - Nethifier",
-            "url": "http://helpdesk.nethesis.it/support/solutions/articles/3000073997-nethifier-app-nativa-per-microsoft-windows"
+            "url": "https://helpdesk.nethesis.it/support/solutions/articles/3000073997-nethifier-app-nativa-per-microsoft-windows"
         }]
     },
     {
