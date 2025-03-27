@@ -144,7 +144,7 @@ footer li:before {
 
 .logos-images {
     background-color: #ffffff;
-    background-image: url("/assets/images/black-thread-light.png");
+    background-image: url("../images/black-thread-light.png");
     height: 140px;
 }
 
