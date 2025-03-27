@@ -1,17 +1,12 @@
 @font-face {
-    font-family: OpenSans;
-    src: url(../css/webfonts/OpenSans-Regular.ttf);
-}
-
-@font-face {
-    font-family: Montserrat;
-    src: url(../css/webfonts/Montserrat-Regular.ttf);
+    font-family: Poppins;
+    src: url(../css/webfonts/Poppins-Regular.ttf);
 }
 
 html,
 body {
     background: #EFF3F4;
-    font-family: OpenSans !important;
+    font-family: Poppins !important;
 }
 
 .hero-body .container {
@@ -20,7 +15,7 @@ body {
 
 .hero-body .title {
     color: hsl(192, 17%, 99%) !important;
-    font-family: Montserrat !important;
+    font-family: Poppins !important;
 }
 
 .hero-body .subtitle {
