@@ -183,10 +183,10 @@ footer li:before {
 }
 
 .product-image {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     margin-top: 1rem;
-    margin-top: -78px;
+    margin-top: -58px;
     user-select: none;
     -moz-user-select: none;
     -khtml-user-select: none;
