@@ -36,6 +36,9 @@
         }, {
             "label": "Registrazione",
             "url": "https://docs.nethserver.org/projects/ns8/en/latest/subscription.html#register-the-cluster"
+        }, {
+            "label": "Manuale utente",
+            "url": "https://docs.nethvoice.it/it/latest/"
         }]
     },
     {
