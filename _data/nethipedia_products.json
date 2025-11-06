@@ -22,23 +22,17 @@
         "description": "La nuova generazione del PBX VoIP",
         "release": "v8",
         "docs": [{
-            "label": "Manuale amministratore NethServer 8",
-            "url": "https://docs.nethserver.org/projects/ns8/en/latest/index.html"
-        }, {
-            "label": "NethVoice Proxy",
-            "url": "https://docs.nethserver.org/projects/ns8/en/latest/nethvoice_proxy.html"
-        }, {
-            "label": "Manuale amministratore NethVoice",
-            "url": "https://docs.nethserver.org/projects/ns8/en/latest/nethvoice.html"
+            "label": "Manuale amministratore",
+            "url": "https://docs.nethvoice.com/it/docs/administrator-manual"
         }, {
             "label": "Download",
-            "url": "https://docs.nethserver.org/projects/ns8/en/latest/install.html#installation"
+            "url": "https://docs.nethvoice.com/it/docs/administrator-manual/install/nethserver#metodi-di-installazione"
         }, {
             "label": "Registrazione",
-            "url": "https://docs.nethserver.org/projects/ns8/en/latest/subscription.html#register-the-cluster"
+            "url": "https://docs.nethvoice.com/it/docs/administrator-manual/install/nethserver#register-nethserver"
         }, {
             "label": "Manuale utente",
-            "url": "https://docs.nethvoice.it/it/latest/"
+            "url": "https://docs.nethvoice.com/it/docs/user-manual"
         }]
     },
     {
