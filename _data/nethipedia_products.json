@@ -6,13 +6,13 @@
         "release": "v8",
         "docs": [ {
             "label": "Manuale Amministratore",
-            "url": "https://docs.nethsecurity.org/en/latest/"
+            "url": "https://docs.nethsecurity.org/it/"
         }, {
             "label": "Download",
-            "url": "https://docs.nethsecurity.org/en/latest/install.html"
+            "url": "https://docs.nethsecurity.org/it/docs/administrator-manual/installation/download"
         }, { 
             "label": "Registrazione",
-            "url": "https://docs.nethsecurity.org/en/latest/subscription.html#register-the-system"
+            "url": "https://docs.nethsecurity.org/it/docs/administrator-manual/system/subscription"
         }],
         "color": "#2d8dcd"
     },
